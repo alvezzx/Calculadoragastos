@@ -1,0 +1,108 @@
+﻿/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Configuração do vídeo de fundo */
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Estilo da navegação */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 12px 0;
+    text-align: center;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px; /* Tamanho médio do texto da navegação */
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 5px;
+}
+
+/* Estilos para o conteúdo */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+/* Estilo geral para as seções */
+.section-container {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com leve transparência */
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    max-width: 600px;
+    color: black;
+    text-align: center;
+}
+
+/* Tamanho médio para os textos */
+h1, h2, p {
+    font-size: 24px; /* Tamanho médio do texto */
+    line-height: 1.5;
+}
+
+/* Estilo dos campos de input e botão */
+input {
+    padding: 12px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px; /* Tamanho médio da fonte do input */
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px; /* Tamanho médio da fonte do botão */
+}
+
+button:hover {
+    background-color: #45a049;
+}

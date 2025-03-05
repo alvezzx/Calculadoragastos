@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gastos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Vídeo de Fundo -->
+    <video autoplay muted loop id="video-background">
+        <source src="videowhallpaper/videoo4k.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+
+    <!-- Navegação -->
+    <nav>
+        <ul>
+            <li><a href="index.html" class="tab-button">Início</a></li>
+            <li><a href="calculadora.html" class="tab-button">Calculadora</a></li>
+            <li><a href="mini-ia.html" class="tab-button">Mini IA</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo da Calculadora -->
+    <div class="content">
+        <section id="calculadora" class="section-container">
+            <h2>Calculadora de Gastos</h2>
+            <p>Digite seus ganhos e despesas para saber quanto você pode economizar.</p>
+            <input type="number" id="ganhos" placeholder="Quanto você ganha?">
+            <input type="number" id="despesas" placeholder="Quanto você gasta?">
+            <button onclick="calcularEconomia()">Calcular Economia</button>
+            <p id="resultado"></p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

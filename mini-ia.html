@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini IA - Perguntas sobre Economia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Vídeo de Fundo -->
+    <video autoplay muted loop id="video-background">
+        <source src="videowhallpaper/videoo4k.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+
+    <!-- Navegação -->
+    <nav>
+        <ul>
+            <li><a href="index.html" class="tab-button">Início</a></li>
+            <li><a href="calculadora.html" class="tab-button">Calculadora</a></li>
+            <li><a href="mini-ia.html" class="tab-button">Mini IA</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo da Mini IA -->
+    <div class="content">
+        <section id="mini-ia" class="section-container">
+            <h2>Mini IA - Perguntas sobre Economia</h2>
+            <p>Exemplo: "Como economizar 100 reais com um salário de 300?"</p>
+            <input type="text" id="pergunta" placeholder="Digite sua pergunta">
+            <button onclick="responderPergunta()">Perguntar</button>
+            <p id="resposta"></p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
